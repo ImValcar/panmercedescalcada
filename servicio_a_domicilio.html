@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>domicilio</title>
+            <link type="text/css" rel="stylesheet" href="./css/menu.css">
+            <link type="text/css" rel="stylesheet" href="./css/servicio_a_domicilio.css">
+    </head>
+
+
+    <body>
+<!--menu ----------------------------------------------------------------------------------------------------------------------------->
+        <div id="caja">
+
+        <a id="imagen_mercedes" href="index.html"><img src="./imagenes/mercedes_calcada.png" alt="logo" width="140" height="80"></a>
+
+            <div id="menu">
+                <ul id="nav">
+                    <li><a href="./panes.html" >Panes</a></li>  <!--Y dentro pan y alimentos que utlizamos? -->
+    <!--Puede -->   <li><a href="./Ingredientes.html">Ingredientes</a></li>
+                    <li><a href="Index.html">Indice</a></li>
+                    <li id="float"><a id="acerca_de">Acerca de</a>
+                        <ul>
+                            <li><a href="./opinion.html">Déjanos tu opinión</a></li>
+                            <li><a href="./fundadora.html">La fundadora</a></li>
+                            <li><a href="./blog.html">Blog</a></li>        
+                        </ul> 
+                    </li>                    
+                </ul>
+            </div>
+
+                <form>
+                       <input id="buscar" type="text" placeholder="Buscar"/>
+                       <button id="check" type="submit" ><img src="./imagenes/lupa.png" alt="lupa" width="20" height="20"></button>
+                </form>
+
+            <div id="redes1">
+                    <a href="https://www.instagram.com/panmercedescalcada/"><img src="./imagenes/instagram.png" alt="instagram" height="60" width="60"></a>
+            </div>
+            <div id="redes2">
+                    <a href="https://twitter.com/CalcadaMercedes?s=20&t=XMNsYNwTzQRIgkIFlb295Q"><img src="./imagenes/twitter.png" alt="twitter" height="50" width="50"></a>            
+            </div>
+        </div> 
+
+        <a href="servicio_a_domicilio.html" id="circulo"> <img src="./imagenes/arriba.png" alt="circulo" height="50"></a>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+<!---contenido----------------------------------------------------------------------------------------------------------------------------->
+ <div id="caja_contenido">
+            
+    <div id="background">
+        <h1>SERVICIO A DOMICILIO</h1>
+        <p>Te llevamos el pan a casa :D</p>
+    </div>
+
+
+        <div id="rellenar">
+            <h2>Rellene el siguiente formulario para poder recibir su pan a domicilio</h2>
+            <hr>
+        </div>
+
+            
+             <form>
+                <fieldset>
+                    <legend>Servicio a domicilio</legend>
+
+    
+
+    <br>            
+                        Nombre:
+                    <input type="text" name="nombre" placeholder="Ej:Sergio" size="15" required/>
+    
+                        Primer apellido:
+                    <input type="text" name="apellido" required/>
+    <br><br>
+                        Sedundo apellido:
+                    <input type="text" name="apellido" />
+    <br>
+    <br>  
+    <br>          
+                
+                
+                        Numero:
+                <input type="number" min="600000000" max="799999999" name="numero" required/>
+
+                        Email:
+                <input type="email" name="correo" required/> 
+        
+    <br>
+    <br>
+
+                        Calle:
+                <input type="text" name="apellido" required/>
+
+                        Portal:
+                <input type="text" name="nombre" size="7" required/>
+
+                        Letra:
+                <input type="text" name="nombre" size="7" required/>
+
+                        Escalera:
+                <input type="text" name="nombre" size="7" />
+
+    <br>                
+    <br>
+    <br>
+                        Fecha de nacimiento:   
+                <input type="date" name="fecha" required/>
+
+    <br>
+    <br>
+
+                
+                    Sexo:
+    <br>
+                    <input type="radio" name="sexo" value="H" /> Hombre
+                    <input type="radio" name="sexo" value="M" /> Mujer
+
+    <br>
+    <br>
+
+                    Selecciona la hora de entrega preferida:
+                <input type="time" name="hora" required/>
+            
+                
+    <br>
+    <br>
+                    <p> Alguna observacion:</p>
+                <textarea name="texto" cols="80" rows="10"  spellcheck="true">
+                </textarea>
+<br>
+
+                <button type="submit">Enviar</button>
+    
+            
+    <br>
+    <br>
+            </fieldset>
+        </form>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+<!--pie---------------------------------------------------------------------------------------------------------------------------->  
+       
+       <footer>
+            <div id="info">
+                <h1 id="panaderia">
+                    Panaderia de Mercedes Calcada
+                </h1>
+
+                <p id="localizada" class="resto_letra">
+                   Localizada en un lugar de mondoñedo
+                </p>
+
+                <p id="los" class="resto_letra">
+                    Los mejores panes del mundo
+                </p>
+            </div>
+
+               <div class="imagen" id="imagen1"><a href="https://www.instagram.com/panmercedescalcada/"><img src="./imagenes/instagram.png" alt="instagram" width="110" height="110"></a></div>
+
+                <div class="imagen" id="imagen2"><a href="https://twitter.com/CalcadaMercedes?s=20&t=XMNsYNwTzQRIgkIFlb295Q"><img src="./imagenes/twitter.png" alt="twitter" width="90" height="90"></a></div>
+        
+                
+            <div id="derechos">
+                <p>
+                    Diseñado por Sergio Valcarcel.
+               
+                    Todos los derechos reservados. ¿Vale? No me robes el codigo cerdo :D
+                </p>
+            </div>  
+       </footer>
+
+
+
+    </body>
+</html>
